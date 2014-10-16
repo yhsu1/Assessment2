@@ -3,7 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "website(3)", "http://localhost:49840", "{E2124F3C-28CC-474B-A8CF-13FB40DB51BC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49840"
+		Debug.AspNetCompiler.PhysicalPath = "website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49840\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49840"
+		Release.AspNetCompiler.PhysicalPath = "website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49840\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment2", "Assessment2\Assessment2.csproj", "{D84E1D14-BF6B-46D7-8B81-963E4677D549}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2124F3C-28CC-474B-A8CF-13FB40DB51BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2124F3C-28CC-474B-A8CF-13FB40DB51BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2124F3C-28CC-474B-A8CF-13FB40DB51BC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2124F3C-28CC-474B-A8CF-13FB40DB51BC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D84E1D14-BF6B-46D7-8B81-963E4677D549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84E1D14-BF6B-46D7-8B81-963E4677D549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84E1D14-BF6B-46D7-8B81-963E4677D549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84E1D14-BF6B-46D7-8B81-963E4677D549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
